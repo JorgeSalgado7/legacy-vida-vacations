@@ -67,24 +67,17 @@
 
 			<h2 class="estates_destinations__h2">Legacy Park Resort Destinations</h2>
 
-			<div class="estates_destinations__grid">
+			<div class="estates_destinations__card">
 
-				<div class="estates_destinations__grid__item"></div>
-
-				<!-- NUEVO VALLARTA -->
-				<div class="estates_destinations__grid__item">
-
-					<div class="estates_destinations__grid__item__img">
-						<img src="../img/about/nv.webp" alt="">
-					</div>
-
-					<h3 class="estates_destinations__grid__item__h3">Vidanta Nuevo Vallarta</h3>
-
-					<a href="/royal-legacy-park-vida-vacations/accommodations/nuevo-vallarta/" class="estates_destinations__grid__item__link">Explore Legacy Park Resort nuevo vallarta</a>
-
+				<div class="estates_destinations__card__img">
+					<img src="../img/about/nv.webp" alt="Emperors Pavilion">
 				</div>
 
-				<div class="estates_destinations__grid__item"></div>
+				<div class="estates_destinations__card__text">
+					<h2>Vidanta Nuevo Vallarta:<br>Now open</h2>
+					<a href="/royal-legacy-park-vida-vacations/accommodations/">Explore Legacy Park Resort Nuevo Vallarta</a>
+				</div>
+				
 
 			</div>
 

@@ -50,7 +50,7 @@
 	<div class="estates_amenities_about">
 		<div class="container">
 			<h2 class="estates_amenities_about__h2">Amenities at Legacy Park Resort</h2>
-			<p class="estates_amenities_about__p">At Legacy Park Resort, you have access to the wide range of incredible amenities offered to guests at Vidanta Nuevo Vallarta—but from luxurious accommodations within one of the resort’s most enviable new locations. After all, few experiences are more magical on your vacation than stepping outside your resort and immediately into the thrilling universe of the theme parks</p>
+			<p class="estates_amenities_about__p">At Legacy Park Resort, you have access to the wide range of incredible amenities offered to guests at Vidanta Nuevo Vallarta—but from luxurious accommodations within one of the resort’s most enviable new locations. After all, few experiences are more magical on your vacation than stepping outside your resort and having easy access to the thrilling universe of the theme parks.</p>
 		</div>
 	</div>
 
@@ -64,7 +64,7 @@
 			<hr class="estates_amenities_specs__hr">
 
 			<ul class="estates_amenities_specs__ul">
-				<li class="estates_amenities_specs__ul__li">Convenient location next to the BON luxury shopping village</li>
+				<li class="estates_amenities_specs__ul__li">Convenient location next to the luxury shopping village at the theme parks</li>
 				<li class="estates_amenities_specs__ul__li">Close proximity to the theme parks—including the opportunity to be among the first visitors to the parks each day</li>
 				<li class="estates_amenities_specs__ul__li">Easy access to the best of everything at Vidanta Nuevo Vallarta, including pristine pools, prestigious golf courses, shopping, Beachland, world-class entertainment, and beautiful spa and fitness facilities </li>
 				<li class="estates_amenities_specs__ul__li">Exquisite international cuisine from more than 40 nearby restaurants, bars, and lounge</li>

@@ -30,8 +30,8 @@
 			margin-top: auto;
 			margin-bottom: 40px;
 			color: $white;
-			font-size: 40px;
-			line-height: 42px;
+			font-size: 30px;
+			line-height: 32px;
 			text-align: center;
 			text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
 			max-width: 883px;
@@ -99,7 +99,6 @@
 					line-height: 41px;
 					max-width: 80%;
 					letter-spacing: 0.15em;
-					padding: 0 2.5rem;
 					margin-top: 0;
 				}
 
@@ -108,21 +107,21 @@
 			&__ul {
 				width: 100%;
 				margin-top: 31px;
+				padding-left: 20px;
 
 				@media(min-width: 1200px) {
 					margin-top: 0;
 				}
 
 				li {
-					list-style-position: inside;
 					color: $black;
 					margin-top: 10px;
 					font-size: 22px;
 
 					@media(min-width: 1200px) {
 						font-size: 24px;
-						line-height: 1.8em;
-						padding: 0 2.5rem;
+						line-height: 30px;
+						margin-top: 20px;
 					}
 
 				}
@@ -234,7 +233,6 @@
 					line-height: 41px;
 					max-width: 80%;
 					letter-spacing: 0.15em;
-					padding: 0 2.5rem;
 					margin-top: 0;
 				}
 			}
@@ -242,21 +240,21 @@
 			&__ul {
 				width: 100%;
 				margin-top: 31px;
+				padding-left: 20px;
 
 				@media(min-width: 1200px) {
 					margin-top: 0;
 				}
 
 				li {
-					list-style-position: inside;
 					color: $white;
 					margin-top: 10px;
 					font-size: 22px;
 
 					@media(min-width: 1200px) {
 						font-size: 24px;
-						line-height: 1.8em;
-						padding: 0 2.5rem;
+						line-height: 30px;
+						margin-top: 20px;
 					}
 
 				}

@@ -6,6 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Accomodations | Legacy Park Resort</title>
 	<link rel="stylesheet" href="../css/main.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
 </head>
 
 <body>
@@ -40,57 +41,280 @@
 	</nav>
 
 	<!--HERO-->
-	<div class="estates_accommodations_hero">
-
+	<div class="estates_accommodations_hotel_hero">
 		<div class="container">
-			<h1 class="estates_accommodations_hero__h1">INSPIRED LUXURY</h1>
+			<h1 class="estates_accommodations_hotel_hero__h1">Accommodations at Legacy Park Resort</h1>
 		</div>
-
 	</div>
 
-	<!-- THE DIFFERENCE -->
-	<div class="estates_heritage">
+	<!-- Legacy Loft -->
+	<div class="estates_accommodations_hotel__white">
 
+		<!-- RESPONSIVE TITLE -->
 		<div class="container">
-
-			<h2 class="estates_heritage__h2">Accommodations at Legacy Park Resort</h2>
-			<p class="estates_heritage__p">Each accommodation at Legacy Park Resort demonstrates a mastery of sophisticated design along with careful attention to detail. Within these expertly crafted floor plans that maximize space and style, guests can enjoy high-end furnishings and finishes, thoughtful conveniences, and views overlooking all the adventures that beckon outdoors.</p>
-
+			<h2 class="estates_accommodations_hotel__h2_responsive">Legacy Loft</h2>
 		</div>
 
-	</div>
-
-	<!-- DESTINATIONS -->
-	<div class="estates_destinations">
-
 		<div class="container">
 
-			<h2 class="estates_destinations__h2">Legacy Park Resort Accommodations</h2>
+			<div class="estates_accommodations_hotel__white__text">
 
-			<div class="estates_destinations__grid">
+				<h2 class="estates_accommodations_hotel__white__text__h2">Legacy Loft</h2>
 
-				<div class="estates_destinations__grid__item"></div>
+				<ul class="estates_accommodations_hotel__white__text__ul">
+					<li>Bed: One King-Size Bed</li>
+					<li>Bedroom Furnishings: Bedside Table with Lamp, Dressing Table with Chair and Mirror, and Armchair with Table</li>
+					<li>Bathroom: One Bathroom with Double Sinks</li>
+					<li>Outdoor: Private Balcony</li>
+					<li>Kitchen: In-Unit Kitchenette with Premium Appliances</li>
+					<li>TV: Located in Bedroom</li>
+				</ul>
+			</div>
 
-				<!-- NUEVO VALLARTA -->
-				<div class="estates_destinations__grid__item">
-
-					<div class="estates_destinations__grid__item__img">
-						<img src="../img/about/nv.webp" alt="">
-					</div>
-
-					<h3 class="estates_destinations__grid__item__h3">Vidanta Nuevo Vallarta</h3>
-
-					<a href="/royal-legacy-park-vida-vacations/accommodations/nuevo-vallarta/" class="estates_destinations__grid__item__link">Explore Legacy Park Resort nuevo vallarta</a>
-
+			<button class="estates_accommodations_hotel__white__img" id="estatesOneBedroomButton" onclick="openEstatesOneBedroomModal()">
+				<img src="../img/accommodations/bedrooms/Royal 1BD/02-UNIDAD-ROYAL-1BR-AP.webp" alt="">
+				<div class="estates_accommodations_hotel__white__img__button">
+					<img src="../img/accommodations/plan.png" alt="">
+					view floorplan
 				</div>
+			</button>
 
-				<div class="estates_destinations__grid__item"></div>
+		</div>
 
+	</div>
+
+	<!-- Legacy Loft MODAL -->
+	<div class="estates_accommodations_hotel__modal" id="estatesOneBedroomModal">
+
+		<button class="estates_accommodations_hotel__modal--close" onclick="closeEstatesOneBedroomModal()">
+			<i class="bi bi-x-lg"></i>
+		</button>
+
+		<div class="container">
+			<h1 class="estates_accommodations_hotel__modal__title">Legacy Loft</h1>
+		</div>
+
+		<img src="../img/accommodations/floorplans/01-UNIDAD-ROYAL-1BR.webp" alt="">
+
+	</div>
+
+	<!-- Legacy Suite -->
+	<div class="estates_accommodations_hotel__green">
+
+		<!-- RESPONSIVE TITLE -->
+		<div class="container">
+			<h2 class="estates_accommodations_hotel__h2_responsive estates_accommodations_hotel__h2_responsive--white">Legacy Suite</h2>
+		</div>
+
+		<div class="container">
+
+			<button class="estates_accommodations_hotel__green__img" onclick="openEstatesTwoBedroomModal()">
+				<img src="../img/accommodations/bedrooms/Royal 2BD/03-UNIDAD-ROYAL-2BR-REC.webp" alt="">
+
+				<div class="estates_accommodations_hotel__green__img__button">
+					<img src="../img/accommodations/plan.png" alt="">
+					view floorplan
+				</div>
+			</button>
+
+			<div class="estates_accommodations_hotel__green__text">
+
+				<h2 class="estates_accommodations_hotel__green__text__h2">Legacy Suite</h2>
+
+				<ul class="estates_accommodations_hotel__green__text__ul">
+					<li>Bed: One King-Size Bed</li>
+					<li>Bedroom Furnishings: Two Bedside Tables with Lamps, Dressing Table with Chair and Mirror, and Armchair with Table</li>
+					<li>Bathrooms: Two Bathrooms with Double Sinks</li>
+					<li>Outdoor: Private Balcony</li>
+					<li>Kitchen: In-Unit Kitchen with Premium Appliances</li>
+					<li>Living Room: Living Area with Sofa, Coffee Table, and Two Armchairs</li>
+					<li>Dining Room: Dining Area with Table for 6</li>
+					<li>TVs: Located in Bedroom and Living Room</li>
+				</ul>
 			</div>
 
 		</div>
 
 	</div>
+
+	<!-- Legacy Suite MODAL -->
+	<div class="estates_accommodations_hotel__modal" id="estatesTwoBedroomModal">
+
+		<button class="estates_accommodations_hotel__modal--close" onclick="closeEstatesTwoBedroomModal()">
+			<i class="bi bi-x-lg"></i>
+		</button>
+
+		<div class="container">
+			<h1 class="estates_accommodations_hotel__modal__title">Legacy Suite</h1>
+		</div>
+
+		<img src="../img/accommodations/floorplans/01-UNIDAD-ROYAL-2BR.webp" alt="">
+
+	</div>
+
+	<!-- Legacy Master Suite -->
+	<div class="estates_accommodations_hotel__white">
+
+		<!-- RESPONSIVE TITLE -->
+		<div class="container">
+			<h2 class="estates_accommodations_hotel__h2_responsive">Legacy Master Suite</h2>
+		</div>
+
+		<div class="container">
+
+			<div class="estates_accommodations_hotel__white__text">
+
+				<h2 class="estates_accommodations_hotel__white__text__h2">Legacy Master Suite</h2>
+
+				<ul class="estates_accommodations_hotel__white__text__ul">
+					<li>Beds: Two King-Size Beds</li>
+					<li>Bedroom Furnishings: Bedside Tables with Lamps, Dressing Table with Chair and Mirror, and Armchair with Table</li>
+					<li>Bathrooms: Three Bathrooms with Double Sinks</li>
+					<li>Outdoor: Private Balcony</li>
+					<li>Kitchen: In-Unit Kitchenette with Premium Appliances</li>
+					<li>Living Room: Living Area with Sofa, Coffee Table, and Two Armchairs</li>
+					<li>Dining Room: Dining Area with Table for 6</li>
+					<li>TVs: Located in Bedrooms and Living Room</li>
+				</ul>
+
+			</div>
+
+			<button class="estates_accommodations_hotel__white__img" onclick="openEstatesThreeBedroomModal()">
+				<img src="../img/accommodations/bedrooms/Royal 3BD/03-UNIDAD-ROYAL-3BR-REC.webp" alt="">
+
+				<div class="estates_accommodations_hotel__white__img__button">
+					<img src="../img/accommodations/plan.png" alt="">
+					view floorplan
+				</div>
+			</button>
+
+		</div>
+
+	</div>
+
+	<!-- Legacy Master Suite MODAL -->
+	<div class="estates_accommodations_hotel__modal" id="estatesThreeBedroomModal">
+
+		<button class="estates_accommodations_hotel__modal--close" onclick="closeEstatesThreeBedroomModal()">
+			<i class="bi bi-x-lg"></i>
+		</button>
+
+		<div class="container">
+			<h1 class="estates_accommodations_hotel__modal__title">Legacy Master Suite</h1>
+		</div>
+
+		<img src="../img/accommodations/floorplans/01-UNIDAD-ROYAL-3BR.webp" alt="">
+
+	</div>
+
+	<!-- Grand Legacy Junior Suite -->
+	<div class="estates_accommodations_hotel__green">
+
+		<!-- RESPONSIVE TITLE -->
+		<div class="container">
+			<h2 class="estates_accommodations_hotel__h2_responsive estates_accommodations_hotel__h2_responsive--white">Grand Legacy Junior Suite</h2>
+		</div>
+
+		<div class="container">
+
+			<button class="estates_accommodations_hotel__green__img" onclick="openVillaLegacyModal()">
+				<img src="../img/accommodations/bedrooms/Royal 4BD/03-UNIDAD-ROYAL-4BR-REC-KS.webp" alt="">
+
+				<div class="estates_accommodations_hotel__green__img__button">
+					<img src="../img/accommodations/plan.png" alt="">
+					view floorplan
+				</div>
+			</button>
+
+			<div class="estates_accommodations_hotel__green__text">
+
+				<h2 class="estates_accommodations_hotel__green__text__h2">Grand Legacy Junior Suite</h2>
+
+				<ul class="estates_accommodations_hotel__green__text__ul">
+					<li>Bed: One King-Size Bed</li>
+					<li>Bedroom Furnishings: Bedside Tables with Lamps and Dressing Table with Chair and Mirror</li>
+					<li>Bathroom: One Bathroom with Double Sinks</li>
+					<li>Outdoor: Private Terrace with Lounge Seating and Views</li>
+					<li>Kitchen: In-Unit Kitchenette with Premium Appliances</li>
+					<li>Living Room: Living Area with Sofa, Coffee Table, and Two Armchairs</li>
+					<li>TV: Located in Living Room</li>
+				</ul>
+			</div>
+
+		</div>
+
+	</div>
+
+	<!-- Grand Legacy Junior Suite MODAL -->
+	<div class="estates_accommodations_hotel__modal" id="villaLegacyModal">
+
+		<button class="estates_accommodations_hotel__modal--close" onclick="closeVillaLegacyModal()">
+			<i class="bi bi-x-lg"></i>
+		</button>
+
+		<div class="container">
+			<h1 class="estates_accommodations_hotel__modal__title">Grand Legacy Junior Suite</h1>
+		</div>
+
+		<img src="../img/accommodations/floorplans/01-UNIDAD-ROYAL-4BR.webp" alt="">
+
+	</div>
+
+	<!-- Grand Legacy Suite -->
+	<div class="estates_accommodations_hotel__white">
+
+		<!-- RESPONSIVE TITLE -->
+		<div class="container">
+			<h2 class="estates_accommodations_hotel__h2_responsive">Grand Legacy Suite</h2>
+		</div>
+
+		<div class="container">
+
+			<div class="estates_accommodations_hotel__white__text">
+
+				<h2 class="estates_accommodations_hotel__white__text__h2">Grand Legacy Suite</h2>
+
+				<ul class="estates_accommodations_hotel__white__text__ul">
+					<li>Beds: One King-Size Bed</li>
+					<li>Bedroom Furnishings: Bedside Tables with Lamps, Dressing Table with Chair and Mirror, and Armchair with Table</li>
+					<li>Bathrooms: Two Bathrooms with Double Sinks</li>
+					<li>Outdoor: Large Private Terrace with Dining Area, Lounge Seating, and Views</li>
+					<li>Kitchen: In-Unit Kitchen with Premium Appliances and Breakfast Bar</li>
+					<li>Living Room: Living Area with Sofa, Coffee Table, and Two Armchairs</li>
+					<li>Dining Room: Dining Area with Table for 6</li>
+					<li>TVs: Located in Bedroom and Living Room</li>
+				</ul>
+
+			</div>
+
+			<button class="estates_accommodations_hotel__white__img" onclick="openEstatesThreeBedroomModal()">
+				<img src="../img/accommodations/bedrooms/Royal 3BD/03-UNIDAD-ROYAL-3BR-REC.webp" alt="">
+
+				<div class="estates_accommodations_hotel__white__img__button">
+					<img src="../img/accommodations/plan.png" alt="">
+					view floorplan
+				</div>
+			</button>
+
+		</div>
+
+	</div>
+
+	<!-- Grand Legacy Suite MODAL -->
+	<div class="estates_accommodations_hotel__modal" id="estatesThreeBedroomModal">
+
+		<button class="estates_accommodations_hotel__modal--close" onclick="closeEstatesThreeBedroomModal()">
+			<i class="bi bi-x-lg"></i>
+		</button>
+
+		<div class="container">
+			<h1 class="estates_accommodations_hotel__modal__title">Grand Legacy Suite</h1>
+		</div>
+
+		<img src="../img/accommodations/floorplans/01-UNIDAD-ROYAL-3BR.webp" alt="">
+
+	</div>
+
 
 	<!-- FOOTER -->
 	<footer class="estates_footer">
@@ -100,6 +324,6 @@
 </body>
 
 <script src="../js/menu.js"></script>
-
+<script src="../js/accommodations/nv.js"></script>
 
 </html>
