@@ -74,8 +74,8 @@
 				</div>
 
 				<div class="estates_destinations__card__text">
-					<h2>Vidanta Nuevo Vallarta:<br>Now open</h2>
-					<a href="/royal-legacy-park-vida-vacations/accommodations/">Explore Legacy Park Resort<br>Nuevo Vallarta</a>
+					<h2>Vidanta Nuevo Vallarta and Riviera Maya:<br>Coming Soon/h2>
+					<a href="/royal-legacy-park-vida-vacations/accommodations/">Explore Legacy Park Resort at<br>Nuevo Vallarta and Riviera Maya</a>
 				</div>
 				
 
