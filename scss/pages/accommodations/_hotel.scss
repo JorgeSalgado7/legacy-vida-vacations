@@ -350,13 +350,6 @@
 			font-size: 20px;
 			cursor: pointer;
 
-			@media(min-width: 768px) {
-				width: 67px;
-				height: 67px;
-				min-height: 67px;
-				font-size: 30px;
-			}
-
 			&:hover {
 				background-color: $black;
 			}
@@ -384,8 +377,8 @@
 
 		img {
 			max-width: 100%;
-			max-height: 60vh;
-			margin: 0 auto;
+			max-height: 50vh;
+			margin: auto;
 		}
 
 	}
